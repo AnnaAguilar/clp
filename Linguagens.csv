@@ -1,0 +1,78 @@
+"Nome";"Hello";"História";"Paradigma";"TIOBE";"IEEE";"PYPL";"Indeed";"Trendy";"Salário";"Original";"Recente"
+"Ada";"with Ada.Text_IO; use Ada.Text_IO;
+procedure Main is
+begin
+  Put_Line (""Hello world!"");
+end Main;";" Foi originalmente produzida por uma equipe liderada por Jean Ichbiah da CII Honeywell Bull, contratados pelo Departamento de Defesa dos Estados Unidos durante a década de 70, com o intuito de substituir as centenas de linguagem de programação usadas pelo DoD.";"Orientada a Objetos";33;42;"+23";0;0.06%;$108,760.00;1980;2016
+"Bash";"echo ""Hello world!""";"É uma evolução retro-compatível muito mais interativa do Bourne Shell (sh). Os shells Bourne permitem a execução de sequências de comandos inseridos diretamente na linha de comandos (""prompt"") ou ainda lidos de arquivos de texto conhecidos como shell scripts.";"Procedural";47;"+50";"+23";80;2.22%;$101,196.00;1989;2015
+"C++";"#include <iostream>
+ 
+int main () {
+  std::cout << ""Hello world!"" << std::endl;
+}";"Bjarne Stroustrup desenvolveu o C++ (originalmente com o nome C with Classes, que significa C com classes em português) em 1983 no Bell Labs como um adicional à linguagem C.";"Orientada a Objetos";3;2;6;242930;9.41%;$88,695.00;1985;2017
+"Clojure";"(println ""Hello world!"")";"Clojure é um dialeto da linguagem de programação Lisp criado por Rich Hickey. Clojure é uma linguagem de programação de propósito geral com ênfase em programação funcional";"Funcional";48;38;"+23";7310;0.75%;$93,566.00;2007;2017
+"COBOL";"	program-id. hello.
+	procedure division.
+		display ""Hello world!"".
+		stop run.";"COBOL (sigla de COmmon Business Oriented Language) - Linguagem Comum Orientada para os Negócios é uma linguagem de programação orientada para o processamento de banco de dados comerciais.";"Procedural";24;39;"+23";40;0.22%;$67,400.00;1959;2014
+"Dart";"main() {
+    var bye = 'Hello world!';
+    print(""$bye"");
+}";"Dart (originalmente denominada Dash) é uma linguagem de script voltada à web desenvolvida pela Google. Ela foi lançada na GOTO Conference 2011,";"Multiparadigma";23;"+50";"+23";140;0.08%;$88,130.00;2011;2018
+"Delphi";"program ProjectGoodbye;
+{$APPTYPE CONSOLE}
+begin
+  WriteLn('Hello world!');
+End.";"Object Pascal é uma ramificação de linguagens derivativas de Pascal, com suporte a orientação a objetos. As principais ferramentas para programar em Object Pascal são o IDE Embarcadero Delphi e o Larazus.";"Orientada a Objetos";10;31;23;350;0.58%;$78,743.00;1995;2018
+"Erlang";"io:format(""Hello world!~n"").";"Erlang é uma linguagem de programação de uso geral e um sistema para execução. Foi desenvolvida pela Ericsson para suportar aplicações distribuídas e tolerantes a falhas a serem executadas em um ambiente de tempo real e ininterrupto.";"Funcional";46;36;"+23";0;0.17%;$107,400.00;1986;2018
+"F#";"printfn ""%s"" ""Hello world!""";"F# é uma linguagem de programação multiparadigma para a plataforma .NET, que engloba programação funcional, imperativa e orientada a objetos.";"Multiparadigma";39;"+50";"+23";0;0.22%;$137,718.00;2005;2018
+"FORTRAN";"print *,""Hello world!""";"A família de linguagens de programação conhecida globalmente como Fortran foi desenvolvida a partir da década de 1950 e continua a ser usada hoje em dia. O nome é um acrônimo da expressão ""IBM Mathematical FORmula TRANslation System"" ";"Procedural";27;22;"+23";70;0.02%;$76,275.00;1957;2018
+"Go";"package main
+ 
+import ""fmt""
+ 
+func main() { fmt.Println(""Hello world!"") }";"Go é uma linguagem de programação criada pela Google e lançada em código livre em novembro de 2009. É uma linguagem compilada e focada em produtividade e programação concorrente";"Procedural";15;9;17;15080;4.16%;$89,807.00;2009;2018
+"Groovy";"println ""Hello world!""";"Groovy é uma linguagem de programação orientada a objetos desenvolvida para a plataforma Java como alternativa à linguagem de programação Java. Groovy possui características de Python, Ruby e Smalltalk. 
+";"Orientada a Objetos";21;"+50";"+23";210;0.56%;$93,279.00;2003;2018
+"Haskell";"main = putStrLn ""Hello world!""";"Haskell é uma linguagem de programação puramente funcional, de propósito geral, nomeada em homenagem ao lógico Haskell Curry. Como uma linguagem funcional, a estrutura de controle primária é a função; a linguagem é baseada nas observações de Haskell Curry e seus descendentes intelectuais.";"Funcional";38;24;21;10910;0.16%;$110,987.00;1990;2010
+"Java";"public class HelloWorld
+{
+ public static void main(String[] args)
+ {
+  System.out.println(""Hello world!"");
+ }
+}";"Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems.";"Orientada a Objetos";1;3;2;269160;25.68%;$89,067.00;1995;2018
+"JavaScript";"document.write(""Hello world!"");";"JavaScript é uma linguagem de programação interpretada. Foi originalmente implementada como parte dos navegadores web para que scripts pudessem ser executados do lado do cliente.";"Multiparadigma";8;8;3;460860;20.40%;$87,307.00;1995;2018
+"Julia";"println(""Hello world!"")";"Julia é uma linguagem de programação dinâmica de alto nível projetada para atender os requisitos da computação de alto desempenho numérico e científico, sendo também eficaz para a programação de propósito geral";"Multiparadigma";44;32;22;1160;0.00%;$81,209.00;2012;2018
+"Kotlin";"fun main(args: Array<String>) {
+    println(""Hello world!"")
+}";"Kotlin é uma Linguagem de programação que compila para a Máquina virtual Java e que também pode ser traduzida para JavaScript e compilada para código nativo.";"Multiparadigma";36;"+50";16;70;0.00%;$66,186.00;2011;2018
+"Lisp";"#!/openlisp/uxlisp -shell
+(format t ""Hello world!~%"")
+(print ""Hello world!"")";"Lisp é uma família de linguagens de programação concebida por John McCarthy em 1958. Num célebre artigo, ele mostra que é possível usar exclusivamente funções matemáticas como estruturas de dados elementares.";"Funcional";32;33;"+23";40;0.01%;$74,420.00;1958;1970
+"Logtalk";":- object(hello_world).
+    :- initialization(write('Hello world!\n')).
+:- end_object.";"Logtalk é uma extensão em código aberto e orientada a objeto da linguagem Prolog. Logtalk é razoavelmente neutra com relação à versões e suporta a maioria das implementações do Prolog. ";"Logica";89;"+50";"+23";0;0.00%;$32,600.00;1998;2018
+"Lua";"print ""Hello world!""";"Lua é uma linguagem de script de multiparadigma, pequena, reflexiva e leve, projetada para expandir aplicações em geral, por ser uma linguagem extensível (que une partes de um programa feitas em mais de uma linguagem), para prototipagem e para ser embarcada em softwares complexos, como jogos.";"Multiparadigma";30;21;20;7920;0.18%;$99,732.00;1993;2018
+"MATLAB";">> disp('Hello world!')";"MATLAB (MATrix LABoratory) trata-se de um software interativo de alta performance voltado para o cálculo numérico. O MATLAB integra análise numérica, cálculo com matrizes, processamento de sinais e construção de gráficos.";"Funcional";13;11;10;42360;0.86%;$92,533.00;1984;2018
+"Perl";"use feature 'say';
+say 'Hello world!';";"Perl é uma linguagem de programação multiplataforma usada em aplicações de CGI para a web, para administração de sistemas linux e por várias aplicações que necessitam de facilidade de manipulação de strings";"Multiparadigma";18;17;"+23";18060;1.52%;$99,671.00;1977;1998
+"PHP";"<?php
+echo ""Hello world!\n"";
+?>";"PHP (um acrônimo recursivo para ""PHP: Hypertext Preprocessor"", originalmente Personal Home Page) é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web.";"Orientada a Objetos";7;6;5;146460;9.84%;$85,470.00;1995;2018
+"Prolog";":- write('Hello world!'), nl.";"Prolog (Programação Lógica) é uma linguagem de programação que se enquadra no paradigma de Programação em Lógica Matemática. É uma linguagem de uso geral que é especialmente associada com a inteligência artificial e linguística computacional. ";"Logica";31;34;;1190;0.02%;$63,575.00;1972;1972
+"Python";"print ""Hello world!""";"Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991.";"Multiparadigma";4;1;1;221290;12.58%;$94,906.00;1990;2018
+"R";" cat(""Hello world!\n"")";"R é uma linguagem e também um ambiente de desenvolvimento integrado para cálculos estatísticos e gráficos. ";"Orientada a Objetos";16;7;7;89320;0.00%;$73,000.00;1993;2018
+"Ruby";"puts ""Hello world!""";"Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático, originalmente planejada e desenvolvida no Japão em 1995, por Yukihiro ""Matz"" Matsumoto.";"Multiparadigma";17;13;12;28220;2.52%;$100,862.00;1995;2018
+"Scala";"println(""Hello world!"")";"Scala (Scalable language) é uma linguagem de programação de propósito geral, diga-se multiparadigma, projetada para expressar padrões de programação comuns de uma forma concisa, elegante e type-safe.";"Orientada a Objetos";29;12;14;1530;3.90%;$93,728.00;2004;2018
+"Scheme";"(display ""Hello world!"")
+(newline)";"Scheme é uma linguagem de programação multiparadigma que suporta programação funcional e procedural. Foi criada por Guy L. Steele e Gerald Jay Sussman no outono de 1975, a partir da linguagem Lisp com o intuito de estudar a teoria dos atores de Carl Hewitt.";"Funcional";42;43;"+23";1000;3.27%;$90,192.00;1975;2013
+"SQL";"SELECT 'Hello world!' text FROM dual;";"Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de pesquisa declarativa padrão para banco de dados relacional (base de dados relacional). Muitas das características originais do SQL foram inspiradas na álgebra relacional. ";"Logica";9;23;"+23";428190;0.24%;$78,034.00;1974;2016
+"Swift";"print(""Hello world!"")";"Swift é uma linguagem de programação desenvolvida pela Apple para desenvolvimento no iOS, macOS, watchOS, tvOS e Linux. Swift foi desenvolvida para manter compatibilidade com a API Cocoa e com código existente em Objective-C.";"Orientada a Objetos";14;18;9;178630;0.00%;$107,807.00;2014;2018
+"Visual Basic";"Imports System
+ 
+Module HelloWorld
+    Sub Main()
+        Console.WriteLine(""Hello world!"")
+    End Sub
+End Module";"Visual Basic.NET é uma linguagem de programação totalmente orientada a objetos e com suporte total a UML, criada pela Microsoft e distribuída com o Visual Studio .NET. ";"Procedural";5;26;15;44880;0.37%;$77,342.00;1991;1998
