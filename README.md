@@ -1,6 +1,7 @@
 # Super Trunfo Hello World
 ## Sobre
 Autora: Anna Luísa Aguilar Lopes
+
 Licença: MIT
 
 Este jogo foi desenvolvido seguindo a proposta do Prof. Dr Dárlinton Barbosa Feres Carvalho da UFSJ - Universidade Federal de São João Del Rei na matéria Conceitos de Linguagens de Programação. A proposta é criar uma versão do jogo Super Trunfo utilizando atributos de linguagens de programação.
